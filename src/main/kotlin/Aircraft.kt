@@ -1,6 +1,6 @@
-// task_18
+// task_21
 
-open class Aircraft(val id: Int, val maxRange: Double, val tankCapacity: Double) {
+abstract class Aircraft(val id: Int, val maxRange: Double, val tankCapacity: Double) {
 
     val fuelConsumption: Double
         get() = tankCapacity / maxRange * 100
